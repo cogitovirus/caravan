@@ -4,12 +4,13 @@ A modern marketing data platform.
 ## Stack
 - Dataflow engine - Apache NiFi https://github.com/apache/nifi
 - Frontend - ?
-- PySpark + Databricks + Snowflake
+- ? PySpark + Databricks + Snowflake
 - Any extra API services written in Typescript + ?
 - GCP as a primiary cloud provider
 - Terraform as a IaC tool
 - OpenAI for NLP services
 - BI tools - ?
+- JebBrains TeamCity for CI/CD
 
 ## Paradigm shift
 I propose we change the logically flawed:
