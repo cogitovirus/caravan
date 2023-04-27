@@ -7,6 +7,9 @@ resource "google_compute_firewall" "allow-ssh" {
         protocol = "tcp"
         ports    = ["22"]
     }
+    # TODO: change to your ip
+    source_ranges = ["31.0.55.189/32"]
+
 
 }
 
@@ -46,5 +49,7 @@ resource "google_compute_firewall" "allow-https" {
     }
 
     target_tags  = ["nifi"]
+    # TODO
+    source_ranges = ["31.0.55.189/32"]
 
 }

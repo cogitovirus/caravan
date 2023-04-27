@@ -65,22 +65,27 @@ variable "zone" {
 // ---------------------------------
 
 variable "project" {
+    default = "caravan-385016"
     description = "GCP Project ID"
 }
 
 variable nifi-admin {
+    default = "w.zolnierowicz@gmail.com"
     description = "Google mail address for the user that will be the initial admin in NiFi"
 }
 
 variable san {
+    default = "nifi.bluecaravan.io"
     description = "FQDN of the DNS mapping that will be used to access NiFi. Example: nifi.example.com"
 }
 
 variable san-registry {
+    default = "nifiregistry.bluecaravan.io"
     description = "FQDN of the DNS mapping that will be used to access NiFi Registry. Example: nifiregistry.example.com"
 }
 
 variable proxyhost {
+    default = "nifi.bluecaravan.io:8443"
     description = "FQDN:port that will be used to access NiFi. Example: nifi.example.com:8443"
 }
 
