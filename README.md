@@ -12,17 +12,6 @@ A modern marketing data platform.
 - BI tools - ?
 - JebBrains TeamCity for CI/CD
 
-## Paradigm shift
-I propose we change the logically flawed:
-
->We help marketers acquire, retain, and grow the customers they love – and those they’d love to have.
-
-To:
-
->We help customers endource, grow and build the brands they love.
-
-<!-- TODO -->
-
 ## Trivia
 
 "Caravan" is an American jazz standard that was composed by Juan Tizol and Duke Ellington and first performed by Ellington in 1936. Irving Mills wrote lyrics, but they are rarely sung. The song is in the key of F major and is in 4/4 time. The tempo is 120 beats per minute. The song is in the form of a 32-bar AABA song.
