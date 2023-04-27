@@ -18,6 +18,7 @@ cd nifi-gcp-terraform/gcp-cluster-secured-nifi-oidc/
 
 Requirements:
   * you need to have a file ``~/account.json`` with the key of the service account that will be used to perform the deployment
+  * alternatively setup ``.config/gcloud/application_default_credentials.json`` with ``gcloud auth application-default login --no-launch-browser``
   * you need to have nifi-1.15.0-bin.zip, nifi-registry-1.15.0-bin.zip, nifi-toolkit-1.15.0-bin.zip and apache-zookeeper-3.6.3-bin.tar.gz in the configured GCS bucket
 
 Variables to update in ``variables.tf`` **before**:

@@ -16,6 +16,8 @@ terraform apply
 
 Please note that you need to have a file ``~/account.json`` with the key of the service account that will be used to perform the deployment.
 
+Alternatively setup ``.config/gcloud/application_default_credentials.json`` with ``gcloud auth application-default login --no-launch-browser``
+
 Variables to provide:
 
 * **project** // GCP Project ID
