@@ -16,7 +16,7 @@ resource "google_compute_instance" "nifi-registry" {
     
     boot_disk {
         initialize_params {
-            image = "debian-cloud/debian-9"
+            image = "ubuntu-2204-jammy-v20230425"
         }
     }
 
