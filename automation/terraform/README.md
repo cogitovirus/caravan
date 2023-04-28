@@ -1,5 +1,14 @@
 # Terraform / NiFi on Google Cloud
 
+## simple single
+ssh to the compute engine
+check status:
+```
+sudo /opt/nifi/bin/nifi.sh status
+```
+
+## gcp cluster + single
+
 Clone of https://github.com/pvillard31/nifi-gcp-terraform
 
 This repository is used to deploy NiFi instances using Terraform on the Google Cloud Platform.
