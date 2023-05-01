@@ -5,25 +5,28 @@ bluecaravan.io
 
 ## Stack
 - Dataflow engine - Apache NiFi https://github.com/apache/nifi
-- Frontend - ?
-- ? PySpark + Databricks + Snowflake
-- Any extra API services written in Typescript + ?
-- GCP as a primiary cloud provider
+- Frontend - Django or React or Angular
+- Processing - PySpark
+- Destinations - Databricks + Snowflake
+- Extra API services will be written in Typescript with ...?
+- GCP as a primary cloud provider
 - Terraform as a IaC tool
 - OpenAI for NLP services
-- BI tools - ?
-- JebBrains TeamCity for CI/CD
+- BI tools -?
+- JetBrains TeamCity for CI/CD or other? CircleCI? Jenkins?
 
 ## Trivia
 
 "Caravan" is an American jazz standard that was composed by Juan Tizol and Duke Ellington and first performed by Ellington in 1936. Irving Mills wrote lyrics, but they are rarely sung. The song is in the key of F major and is in 4/4 time. The tempo is 120 beats per minute. The song is in the form of a 32-bar AABA song.
 
-In the recent times, the song was popularized by a 2014 American independent psychological drama film written and directed by Damien Chazelle and starring Miles Teller, J.K. Simmons, Paul Reiser and Melissa Benoist. The film expores a toxic relationship between a young jazz drumer, Andrew Neiman (played by Miles Teller), and his demanding music instructor, Terence Fletcher (played by J.K. Simmons)[1](https://youtu.be/ZZY-Ytrw2co)
+In recent times, the song was popularized by a 2014 American independent psychological drama film written and directed by Damien Chazelle and starring Miles Teller, J.K. Simmons, Paul Reiser and Melissa Benoist. The film explores a toxic relationship between a young jazz drummer, Andrew Neiman (played by Miles Teller), and his demanding music instructor, Terence Fletcher (played by J.K. Simmons)[1](https://youtu.be/ZZY-Ytrw2co)
 
 ## TODO:
 - [ ] gcs dev env terraform init
-- [ ] setup nifi
-
+- [ ] JAVA_HOME setup for Nifi simple terraform init
+- [ ] Terraform Nifi port setup
+- [ ] Firewall configuration
+ 
 ## Milestones
 ### Epic 1: Dataflow engine
 - [ ] deploy backend to GCP
@@ -32,5 +35,5 @@ In the recent times, the song was popularized by a 2014 American independent psy
 - [ ] short feedback loop - ouroboros - feed the dataflow chain with the project documentation
 - [ ] create the chatbot
 - [ ] add the issue tracker as the second source of data
-### Epic 3: Customer facing frontend
+### Epic 3: Customer-facing frontend
 - [ ] Design

@@ -1,6 +1,9 @@
 # Terraform / NiFi on Google Cloud
 
 ## simple single
+Mirror for the download:
+https://dlcdn.apache.org/nifi/1.21.0/nifi-1.21.0-bin.zip
+
 ssh to the compute engine
 check status:
 ```
@@ -21,7 +24,7 @@ This repository is used to deploy NiFi instances using Terraform on the Google C
   * deploy a NiFi CA server as a convenient way to generate SSL certificates
   * deploy an external ZooKeeper instance to manage cluster coordination and state across the nodes
   * deploy one secured instance of the NiFi Registry configured with OIDC
-  * deploy X secured NiFi instances clustered together
+  * deploy X-secured NiFi instances clustered together
   * configure NiFi to use OpenID connect for authentication
   * configure an HTTPS load balancer with Client IP affinity in front of the NiFi cluster
 
