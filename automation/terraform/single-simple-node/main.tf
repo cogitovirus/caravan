@@ -39,6 +39,7 @@ metadata_startup_script = <<-EOT
   NIFI_HTTP_PORT=8080
   sudo sed -i "s/nifi.web.http.port=.*$/nifi.web.http.port=$${NIFI_HTTP_PORT}/" /opt/nifi/conf/nifi.properties
   
+  source /etc/profile.d/java.sh
   sudo /opt/nifi/bin/nifi.sh start
 EOT
 
