@@ -4,7 +4,7 @@ A modern marketing data platform.
 bluecaravan.io
 
 ## Stack
-- Dataflow engine - Apache Airflow + dbt
+- Dataflow engine - Dagster + dbt
 - Processing - PySpark
 - Destinations - Databricks + Snowflake
 - Extra API services will be written in Typescript with ...?
@@ -13,12 +13,6 @@ bluecaravan.io
 - OpenAI for NLP services
 - BI tools -?
 - JetBrains TeamCity for CI/CD or other? CircleCI? Jenkins?
-
-## Local setup
-Follow this [quickstart](https://airflow.apache.org/docs/apache-airflow/stable/start.html), then run: 
-```
-airflow standalone
-```
 
 ## Python venv
 ```
