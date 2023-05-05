@@ -4,8 +4,7 @@ A modern marketing data platform.
 bluecaravan.io
 
 ## Stack
-- Dataflow engine - Apache NiFi https://github.com/apache/nifi
-- Frontend - Django or React or Angular
+- Dataflow engine - Apache Airflow + dbt
 - Processing - PySpark
 - Destinations - Databricks + Snowflake
 - Extra API services will be written in Typescript with ...?
