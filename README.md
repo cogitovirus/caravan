@@ -14,6 +14,28 @@ bluecaravan.io
 - BI tools -?
 - JetBrains TeamCity for CI/CD or other? CircleCI? Jenkins?
 
+## Local setup
+Follow this [quickstart](https://airflow.apache.org/docs/apache-airflow/stable/start.html), then run: 
+```
+airflow standalone
+```
+
+## Python venv
+```
+# create virtual environment
+python3 -m venv myenv
+# activate virtual environment
+source myenv/bin/activate
+# install dependencies
+pip install -r requirements.txt
+# deactivate virtual environment after you are done
+deactivate
+```
+to save new dependencies:
+```
+pip freeze > requirements.txt
+```
+
 ## Trivia
 
 "Caravan" is an American jazz standard that was composed by Juan Tizol and Duke Ellington and first performed by Ellington in 1936. Irving Mills wrote lyrics, but they are rarely sung. The song is in the key of F major and is in 4/4 time. The tempo is 120 beats per minute. The song is in the form of a 32-bar AABA song.
